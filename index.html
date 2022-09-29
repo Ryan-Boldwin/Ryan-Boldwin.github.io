@@ -14,6 +14,11 @@
         background-color : white;
     }
    
+    .list {
+      display : flex;
+    }
+    .list li {
+      list-style-type: none;
     
     .box{
         width: 75%;
@@ -26,34 +31,7 @@
         width: 100%;
     }
     
-    header {
-      background-color: black;
-        position: fixed;
-      align-items: center;
-      left: 0;
-      right: 0;
-      top: 10px;
-      height: 50px;
-      display:flex;
-      
-    }
-   
   
-     ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;}
-  
-  header li{ 
-   margin: 50px;
-    }
- 
-    header li a {
-      display: flex;
-    text-align: center;
-      padding: 30px, 60px;
-    }
-    
   </style>
   </head>
 
@@ -62,13 +40,13 @@
   <img id = banner src= "myBanner.jpg">
   </div>
 <header>
-  <nav>
-    <ul>
+ 
+    <ul class= "list">
       <li> <a href= "index.html"> <img src = "Home.jpg"> </a></li>
       <li> <a href= "Javascripts.html"> <img src = "Javascript.jpg"> </a> </li>
       <li> <a href= "About.html"> <img src= "About me.jpg"> </a> </li>
       <li> <a href= "Apps.html"> <img src= "Apps.jpg"> </a> </li>
-      </nav>
+   
       </header>
       
   <div class= "main">
