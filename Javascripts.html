@@ -5,21 +5,44 @@
 <meta charset = "utf-8">
 <title> My Programming Portfolio </title>
   <style>
+    
+    .box{
+        margin: auto;
+      width: 75%;
+        height: 125px;
+        border: 20px solid #000000;
+      
+    }
+    
+    #banner { 
+      height: 100%;
+        width: 100%;
+    }
+      
+     .main {
+        text-align: center;
+        margin: auto;
+        width: 85%;
+         }
+   
         
   
 
- ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;}
-  
- li{ 
-   float: left;
+ .list {
+     position: sticky;
+      top: 0;
+      background-color: black; 
+      display: flex;
+      margin: auto;
+        width: 75%;
+      padding: 20px, 80px; 
+          
     }
-    li a {
-      display: block;
-    text-align: center;
-      padding: 30px, 60px;
+    
+    .list li {
+      list-style-type: none;
+      height : 100%;
+        width: 100%;
     }
     
   </style>
@@ -27,7 +50,9 @@
   </head>
 
 <body> 
-  <img src= "myBanner.jpg">
+  <div class = box>
+  <img id = "banner" src= "myBanner.jpg">
+  </div>
 
   
   <header>
@@ -38,13 +63,14 @@
       <li> <a href= "Apps.html"> <img src= "Apps.jpg"> </a> </li>
       </header>
    
-      <h1> Welcome to My Javascripts Page! </h1>
+    <div class = main>
+    <h1> Welcome to My Javascripts Page! </h1>
   
- 
-   
-      <p> I hope to create a variety of different programs using Javascript and this is where I will be posting the ones that I can complete! </p>
-      
-      <table>
+   <p> I hope to create a variety of different programs using Javascript and this is where I will be posting the ones that I can complete! </p>
+    </div>
+    
+    
+    <table>
         <tr>
       
     <td> <h2><a href="https://www.khanacademy.org/computer-programming/boldwin_racing_bitmoji/5427171729915904"> Boldwin racing bitmoji</a></h2> <script src="https://www.khanacademy.org/computer-programming/boldwin_racing_bitmoji/5427171729915904/embed.js?editor=no&buttons=no&author=no&embed=yes"></script></td>
