@@ -21,14 +21,51 @@
       margin-left: 6px}
     #me { float:left;
       margin-right:6px}
-    #about-me {
-    color: white;
-    }
+  
     h1 { font-family: Segoe UI;
       margin-right: auto;
       maargin-left:auto;}
+      
+      
     
+      .main {
+        background-color: white;
+        text-align: center;
+        margin: auto;
+        width: 85%;
+          
+        
+    }
+   
+    .list {
+     position: sticky;
+      top: 0;
+      background-color: black; 
+      display: flex;
+      margin: auto;
+        width: 75%;
+      padding: 20px, 80px; 
+          
+    }
     
+    .list li {
+      list-style-type: none;
+      height : 100%;
+        width: 100%;
+    }
+    
+    .box{
+        margin: auto;
+      width: 75%;
+        height: 125px;
+        border: 20px solid #000000;
+      
+    }
+    
+    #banner { 
+      height: 100%;
+        width: 100%;
+    }
     
     
   
@@ -36,22 +73,24 @@
   </head>
 
 <body> 
+<div class = "box">
   <img src= "myBanner.jpg">
+</div>
+<div class = "main">
 <h1> Welcome to My About Me Page! </h1>
   <p id= about-me> <img id= "headshot" src="headshot.jpg" height= 200> <img id="ps4" src= "ps4.jpg" width= 200><img id= "baseball" src= "baseball.webp" width=100> <img id="me" src= "Ryan.jpg" height=250> My name is Ryan Boldwin. I am from Burlington, Vermont and this is my first semester at URI. Before URI I had attended Plymouth State University where I graduated with a degree in Physical Education in 2019.
     After graduating I enlisted in the United States Army as a military Police Officer. I was in the army from 2020 until 2022. After completing my commitment in the Army I was hired as a physical education teacher in New Hampshire. This is where I realized that teaching was not the career I wanted pursue and I had recently gotten into coding and the science of computer languages. 
     After My wife had been accepted to URI for the Chemistry PHD program I decided that I would switch my career projectory and obtain another degree, this time Computer Sciences!
     I played baseball at Plymouth and still love baseball very much! I also really enjoy playing many different kinds of video games! The picture on the left is a photo of me and my wife!  </p>
-
-  <div id= "links">
-  <table> 
+</div>
+ <ul class= "list">
+      <li> <a href= "index.html"> <img src = "Home.jpg"> </a></li>
+      <li> <a href= "Javascripts.html"> <img src = "Javascript.jpg"> </a> </li>
+      <li> <a href= "About.html"> <img src= "About me.jpg"> </a> </li>
+      <li> <a href= "Apps.html"> <img src= "Apps.jpg"> </a> </li>
    
-    <tr>
-      <td> <a href= "index.html"> <img src = "Home.jpg"> </a></td>
-      <td> <a href= "Javascripts.html"> <img src = "Javascript.jpg"> </a> </td>
-      <td> <a href= "About.html"> <img src= "About me.jpg"> </a> </td>
-      <td> <a href= "Apps.html"> <img src= "Apps.jpg"> </a> </td>
-    </div>
+      </header>
+
   </body>
  
 
